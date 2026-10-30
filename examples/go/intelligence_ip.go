@@ -42,7 +42,7 @@ func main() {
 	_ = url.Values{}
 	_ = json.Valid
 	params := url.Values{}
-	params.Set("query", "YOUR_VALUE")
+	params.Set("query", "104.238.140.68")
 	target := "https://api.veille.io/v1/intelligence/ip"
 	if len(params) > 0 {
 		target += "?" + params.Encode()

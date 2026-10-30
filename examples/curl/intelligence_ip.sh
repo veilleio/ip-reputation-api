@@ -5,4 +5,4 @@ set -euo pipefail
 
 curl -sS -G "https://api.veille.io/v1/intelligence/ip" \
   -H "x-api-key: ${VEILLE_API_KEY}" \
-  --data-urlencode query=YOUR_VALUE
+  --data-urlencode query=104.238.140.68

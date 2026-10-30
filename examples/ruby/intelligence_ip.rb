@@ -19,7 +19,7 @@ def call(method, url, body = nil)
 end
 
 uri = URI("https://api.veille.io/v1/intelligence/ip")
-uri.query = URI.encode_www_form('query' => 'YOUR_VALUE')
+uri.query = URI.encode_www_form('query' => '104.238.140.68')
 response = call("GET", uri.to_s)
 
 puts JSON.pretty_generate(JSON.parse(response))
